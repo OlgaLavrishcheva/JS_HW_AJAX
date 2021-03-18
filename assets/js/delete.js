@@ -6,6 +6,6 @@ async function deleteData(url, data) {
     return false;
 }
 
-deleteData(`http://jsonplaceholder.typicode.com/posts/1`)
+deleteData(`https://jsonplaceholder.typicode.com/posts/1`)
     .then((res) => console.log(res))
     .catch((err) => console.log(err));

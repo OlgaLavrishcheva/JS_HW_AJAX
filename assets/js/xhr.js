@@ -96,7 +96,7 @@ inputSearch.addEventListener('keyup', (e) => {
         if (searchLast && searchString.length > 3 && searchString !== searchLast) {
             if (!triggerMode) clearMoviesMarkup();
 
-            getData(`http://www.omdbapi.com/?apikey=9bbb0cb8&s=${searchString}`)
+            getData(`https://www.omdbapi.com/?apikey=9bbb0cb8&s=${searchString}`)
             .then((movies) => movies.forEach((movie) => addMovieToList(movie)))
             .catch((err) => console.log(err));
         }

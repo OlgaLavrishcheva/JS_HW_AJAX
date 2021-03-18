@@ -12,7 +12,7 @@ async function postsData(url, data) {
     return response.json();
 }
 
-postsData(`http://jsonplaceholder.typicode.com/posts`, {
+postsData(`https://jsonplaceholder.typicode.com/posts`, {
     title: 'My title text',
     descr: 'Description text',
     text: 'Text'

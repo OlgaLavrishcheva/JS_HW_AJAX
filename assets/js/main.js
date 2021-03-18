@@ -131,7 +131,7 @@ const addMovieToList = (movie) => {
     const img = document.createElement('img');
     
     img.classList.add('movie__image');
-    img.src = /^(http|https):\/\//i.test(movie.Poster) ? movie.Poster : 'http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png';
+    img.src = /^(http|https):\/\//i.test(movie.Poster) ? movie.Poster : 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png';
     item.classList.add('movie');
     
     item.appendChild(img);

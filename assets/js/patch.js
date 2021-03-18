@@ -12,7 +12,7 @@ async function patchData(url, data) {
     return response.json();
 }
 
-patchData(`http://jsonplaceholder.typicode.com/posts/1`, {
+patchData(`https://jsonplaceholder.typicode.com/posts/1`, {
     title: 'My title text',
     descr: 'Description text',
     text: 'Text',
